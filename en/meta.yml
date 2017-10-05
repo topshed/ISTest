@@ -1,6 +1,6 @@
-title: make-an-initial-state-dashboard-for-weather-data
+title: Make an Initial State dashboard for weather data
 hero_image: images/banner.png
-description: make-an-initial-state-dashboard-for-weather-data 
+description: make-an-initial-state-dashboard-for-weather-data
 original_url:
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 # possible values: 1, 2 or 3
@@ -15,3 +15,4 @@ steps:
   - title: Introduction
   - title: What you will need
   - title: Step title
+  - title: Uploading data to Initial State
