@@ -51,9 +51,9 @@ SENSOR_LOCATION_NAME = "My School"
 - Now we add the lines of code to stream the data up into our bucket.
 
 - First, create a Streamer with the credentials needed for your data bucket.
+
 ```python
 streamer = Streamer(bucket_name=BUCKET_NAME, bucket_key=BUCKET_KEY, access_key=ACCESS_KEY)
-
 ```
 
 - Start with a single measurement to test the process. For example, your humidity readings.
@@ -68,11 +68,13 @@ streamer.log(":sweat_drops: " + SENSOR_LOCATION_NAME + " Humidity(%)", humidity)
 ```python
 streamer.flush()
 ```
+
 - Run your code and then take a look at your Initial State account. You should see that a single data point has been plotted.
 
 ![](images/image10.png)
 
 - One data point isn't very interesting, so change the value of the humidity variable in your code.
+
 ```python
 humidity = 57.078
 ```
@@ -82,7 +84,7 @@ humidity = 57.078
 
 ![](images/image11.png)
 
-- You can experiment with different view options by clicking on the *Edit Tile* button in the top right and then clicking on the graph tile. Choose some of the other Tile Type options and look at the different ways of displaying your data. 
+- You can experiment with different view options by clicking on the *Edit Tile* button in the top right and then clicking on the graph tile. Choose some of the other Tile Type options and look at the different ways of displaying your data.
 
 ![](images/image12.png)
 ![](images/image13.png)
