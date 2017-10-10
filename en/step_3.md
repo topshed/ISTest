@@ -38,7 +38,7 @@ Oracle Weather Station users should follow [this link](https://rpi.hosted-app.co
 
 - You'll need the **Bucket** and **Access Key** for the next stage.
 
-![](images/image8.png)
+![](images/image9.png)
 
 --- collapse ---
 ---

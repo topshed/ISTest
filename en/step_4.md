@@ -13,7 +13,7 @@ from ISStreamer.Streamer import Streamer
 - Now you need to develop the code to process each one of your weather readings. Rather than use actual measurements from your sensors during this development stage, create some test data as Python variables. Add these lines underneath your library imports. If you have a Sense Hat, you should have:
 
 ```python
-humidity = 55.998
+humidity = 49.633
 ambient_temp = 23.456
 pressure = 1007.890
 ```
@@ -38,8 +38,8 @@ rainfall = 1.270
 ```python
 
 BUCKET_NAME = ":partly_sunny:  My Weather Station"
-BUCKET_KEY = credentials['XXXX']
-ACCESS_KEY = credentials['YYYY']
+BUCKET_KEY = credentials['XXXX'] # Replace XXXX with your bucket key
+ACCESS_KEY = credentials['YYYY'] # Replace YYYY with your access key
 SENSOR_LOCATION_NAME = "My School"
 ```
 
@@ -87,6 +87,8 @@ humidity = 57.078
 
 ![](images/image12.png)
 
+- The *Gauge* Tile type gives a simple display of the latest reading along with the maximum and minimum values received.
+
 ![](images/image13.png)
 
 - Now add two more `streamer.log` lines to your Python code for your temperature and pressure readings.
@@ -110,6 +112,10 @@ streamer.log(":droplet: " + SENSOR_LOCATION_NAME + " Pressure(mb)", pressure)
 ```
 ---/hint---
 ---/hints---
+
+- Run you code again. You should now see that two more tiles are created on the dashboard. Note that their 'timeline' begins back when the first humidity data points were uploaded to the bucket.
+
+![](images/image14.png)
 
 --- collapse ---
 ---
