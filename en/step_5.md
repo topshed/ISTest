@@ -8,8 +8,6 @@
 
 [[[rpi-sensehat-humidity]]]
 
-![](images/image3.png)
-
 - To perform regular uploads you could have a one-shot script that is run at set intervals using Crontab
 
 [[[nix-bash-crontab]]]
@@ -133,6 +131,6 @@ If you get stuck, here is a basic example of a [modified log_all_sensors.py](res
 
 --- /collapse ---
 
-Once you have data uploading regularly, you can use your Weather Underground PWS page to see how your local climate is changing over time.
+Once you have data uploading regularly, you can use your Initial State dashboard to analyse how your local climate is changing over time.
 
-![](images/image4.png)
+![](images/image5.png)
