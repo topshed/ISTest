@@ -1,14 +1,12 @@
 ## Introduction
 
-There are lots of ways to collect data with a raspberry Pi: you can collect humidity, temperature and pressure data with a SenseHat, detect movemnet with a camera and motion detector software or even build a complete [Weather Station](https://www.raspberrypi.org/education/weather-station/) like the kits we recently sent to lucky schools around the world.
-
-Once you're collecting data, it's much easier to work out what's going on through graphs and visualisations. Initial State is an online streaming and visualisation platform to which you can send or upload time series data to your from sensors, devices, software, files, or anything that can make an HTTPS request. Streaming data to your Initial State account not only allows you to see what is happening in real-time through colourful and customisable dashboards.
+Once you're collecting data with your Oracle Weather Station, it's much easier to work out what's going on through graphs and visualisations. Initial State is an online streaming and visualisation platform to which you can send or upload time series data to your from sensors, devices, software, files, or anything that can make an HTTPS request. Streaming data to your Initial State account allows you to see what is happening in real-time through colourful and customisable dashboards.
 
 ![](images/image1.png)
 
 ### What you will make
 
-You will write Python code to upload data to Initial State and build a simple dashboard to display it.
+You will write Python code to upload data to Initial State and build simple dashboards to display, analyse and share it.
 
 ### What you will learn
 

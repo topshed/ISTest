@@ -10,28 +10,18 @@ You are going to use the `ISStreamer` Python library to stream data to your Init
 from ISStreamer.Streamer import Streamer
 ```
 
-- Now you need to develop the code to process each one of your weather readings. Rather than use actual measurements from your sensors during this development stage, create some test data as Python variables. Add these lines underneath your library imports. If you have a Sense Hat, you should have:
+- Now you need to develop the code to process each one of your weather readings. Rather than use actual measurements from your sensors during this development stage, create some test data as Python variables. Add these lines underneath your library imports.
 
 ```python
 humidity = 49.633
 ambient_temp = 23.456
 pressure = 1007.890
-```
-
---- collapse ---
----
-title: Notes for Raspberry Pi Oracle Weather Station schools
- ---
-
-   You should add the additional test data variables:
-```python
 ground_temp = 16.345
 wind_speed = 5.6129
 wind_gust = 12.9030
 wind_average = 180
 rainfall = 1.270
 ```
---- /collapse ---
 
 - Then add some more variables to store the Initial State streaming configuration information.
 
@@ -117,18 +107,20 @@ streamer.log(":droplet: " + SENSOR_LOCATION_NAME + " Pressure(mb)", pressure)
 
 ![](images/image14.png)
 
---- collapse ---
----
-title: Notes for Raspberry Pi Oracle Weather Station schools
----
-You'll need to add extra lines for the rest of the Weather Station sensors:
+- Now add the extra lines needed for the rest of the Weather Station sensors.
+
+---hints---
+---hint---
+You need a line for wind direction, speed and gust measurements, rainfall, ground temperature and air quality.
+---/hint---
+---hint---
 ```python
 streamer.log(":cloud_tornado: " + SENSOR_LOCATION_NAME + " Wind Direction", wind_average)
-streamer.log(":cloud_tornado: " + SENSOR_LOCATION_NAME + " Wind Direction Text", wind_direction_text)
 streamer.log(":wind_blowing_face: " + SENSOR_LOCATION_NAME + " Wind Speed", wind_speed)
 streamer.log(":wind_blowing_face: " + SENSOR_LOCATION_NAME + " Wind Gust", wind_gust)
 streamer.log(":cloud_rain: " + SENSOR_LOCATION_NAME + " Rainfall", rainfall)
 streamer.log(":earth_americas: " + SENSOR_LOCATION_NAME + " Ground Temp (C)", ground_temp)
 streamer.log(":cloud: " + SENSOR_LOCATION_NAME + " Air Quality", air_quality)
 ```
---- /collapse ---
+---/hint---
+---/hints---
