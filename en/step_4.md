@@ -23,7 +23,7 @@ wind_average = 180
 rainfall = 1.270
 ```
 
-- Then add some more variables to store the Initial State streaming configuration information.
+- Then add some more variables to store the Initial State streaming configuration information. Replace `XXXX` and `YYYY` with your Initial State keys.  
 
 ```python
 
@@ -33,9 +33,6 @@ ACCESS_KEY = credentials['YYYY'] # Replace YYYY with your access key
 SENSOR_LOCATION_NAME = "My School"
 ```
 
-- Note that you can use [Emojis to decorate and brighten up your dashboard](http://support.initialstate.com/knowledgebase/articles/667693-emojis){:target="_blank"}. Adding `:partly_sunny:` to the bucket name will place a weather symbol next to the text as it is displayed on your Initial State page.
-
-![](images/image2.png)
 
 - Now we add the lines of code to stream the data up into our bucket.
 
@@ -68,7 +65,7 @@ streamer.flush()
 ```python
 humidity = 57.078
 ```
-
+ 
 - Repeat this a few more times and have a look at the graph that will have been plotted.
 
 ![](images/image11.png)
