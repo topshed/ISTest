@@ -8,11 +8,11 @@ For testing and development, you used some fictitious data values, stored as var
 
 
 ```python
-def degrees_to_cardinal(d):
+def degrees_to_cardinal(angle):
 
     directions = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE",
             "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
-    ix = int((d + 11.25)/22.5)
+    ix = int((angle + 11.25)/22.5)
     return directions[ix % 16]
 ```
 

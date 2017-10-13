@@ -66,7 +66,7 @@ streamer.flush()
 humidity = 57.078
 ```
 
-- Repeat this a few more times, varying the time between each iteration and have a look at the line chart that will have been plotted.
+- Repeat this a few more times, changing the humidity value varying the time between each iteration.
 
 ![](images/image11.png)
 
@@ -78,7 +78,7 @@ humidity = 57.078
 
 ![](images/image12.png)
 
-- The *Gauge* Tile type gives a simple display of the latest reading along with the maximum and minimum values received.
+- The **Gauge** Tile type gives a simple display of the latest reading along with the maximum and minimum values received.
 
 ![](images/image13.png)
 
@@ -125,3 +125,5 @@ streamer.log(":cloud: " + SENSOR_LOCATION_NAME + " Air Quality", air_quality)
 ```
 ---/hint---
 ---/hints---
+
+![](images/image1.png)
