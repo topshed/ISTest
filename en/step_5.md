@@ -73,7 +73,4 @@ ACCESS_KEY = credentials_is['ACCESS_KEY']
 
 If you've followed the [standard installation instructions](https://www.raspberrypi.org/learning/weather-station-guide/), this script should be run every five minutes via Cron, which is a sensible frequency.
 
-If you encounter problems, here is a basic example of a [modified log_all_sensors.py](resources/log_all_sensorsIS.py) script.
-
-
 Once you have data uploading regularly, you can use your Initial State dashboard to analyse how your local climate is changing over time.
