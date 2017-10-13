@@ -8,13 +8,13 @@ listed: false
 ingredient: false
 copyedit: false
 curriculum: creator
-interests: "nature/outside/weather, music/sound, physical computing"
+interests: "nature/outside/weather"
 technologies: "web, sense-hat, physical computing, python"
 site_areas:
 steps:
   - title: Introduction
   - title: What you will need
-  - title: Step title
+  - title: Registering with Initial State
   - title: Uploading data to Initial State
   - title: Using Live data
   - title: Visualising your data

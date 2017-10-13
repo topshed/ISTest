@@ -2,7 +2,7 @@
 
 You are going to use the `ISStreamer` Python library to stream data to your Initial State bucket.
 
-- Open a new Python file with Idle (or your favourite Python IDE) and save it into /home/pi as IS-upload.py
+- Open a new Python file with Idle (or your favourite Python IDE) and save it into /home/pi as `IS-upload.py`.
 
 -  First of all, import the parts of the ISStreamer library that you need. Add this line at the top.
 
@@ -13,7 +13,7 @@ from ISStreamer.Streamer import Streamer
 - Now you need to develop the code to process each one of your weather readings. Rather than use actual measurements from your sensors during this development stage, create some test data as Python variables. Add these lines underneath your library imports.
 
 ```python
-humidity = 49.633
+humidity = 54.333
 ambient_temp = 23.456
 pressure = 1007.890
 ground_temp = 16.345
@@ -23,7 +23,7 @@ wind_average = 180
 rainfall = 1.270
 ```
 
-- Then add some more variables to store the Initial State streaming configuration information. Replace `XXXX` and `YYYY` with your Initial State keys.  
+- Then add some more variables to store the Initial State streaming configuration information. The `BUCKET_NAME` should match the one you used when creating a new bucket earlier. Replace `XXXX` and `YYYY` with your Initial State keys and use your own school name for the `SENSOR_LOCATION_NAME`.
 
 ```python
 
@@ -36,7 +36,7 @@ SENSOR_LOCATION_NAME = "My School"
 
 - Now we add the lines of code to stream the data up into our bucket.
 
-- First, create a Streamer with the credentials needed for your data bucket.
+- First, create a Streamer instance with the credentials needed for your data bucket.
 
 ```python
 streamer = Streamer(bucket_name=BUCKET_NAME, bucket_key=BUCKET_KEY, access_key=ACCESS_KEY)
@@ -56,7 +56,7 @@ streamer.log(":sweat_drops: " + SENSOR_LOCATION_NAME + " Humidity(%)", humidity)
 streamer.flush()
 ```
 
-- Run your code and then take a look at your Initial State account. You should see that a single data point has been plotted.
+- Save your file, run your code and then take a look at your Initial State account. You should see that a new dashboard element has appear and a single data point has been plotted.
 
 ![](images/image10.png)
 
@@ -65,12 +65,16 @@ streamer.flush()
 ```python
 humidity = 57.078
 ```
- 
-- Repeat this a few more times and have a look at the graph that will have been plotted.
+
+- Repeat this a few more times, varying the time between each iteration and have a look at the line chart that will have been plotted.
 
 ![](images/image11.png)
 
-- You can experiment with different view options by clicking on the *Edit Tile* button in the top right and then clicking on the graph tile. Choose some of the other Tile Type options and look at the different ways of displaying your data.
+- You can experiment with different view options by clicking on the **Edit Tile** button in the top right and then clicking on the graph tile.
+
+![](images/image23.png)
+
+- Choose some of the other Tile Type options and look at the different ways of displaying your data.
 
 ![](images/image12.png)
 
