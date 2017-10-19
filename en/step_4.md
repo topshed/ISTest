@@ -28,8 +28,8 @@ rainfall = 1.270
 ```python
 
 BUCKET_NAME = ":partly_sunny:  My Weather Station"
-BUCKET_KEY = credentials['XXXX'] # Replace XXXX with your bucket key
-ACCESS_KEY = credentials['YYYY'] # Replace YYYY with your access key
+BUCKET_KEY = 'XXXX' # Replace XXXX with your bucket key
+ACCESS_KEY = 'YYYY' # Replace YYYY with your access key
 SENSOR_LOCATION_NAME = "My School"
 ```
 
