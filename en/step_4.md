@@ -128,4 +128,4 @@ streamer.log(":cloud: " + SENSOR_LOCATION_NAME + " Air Quality", air_quality)
 
 ![](images/image1.png)
 
-[Next->](step_4.md)
+[Next->](step_5.md)
