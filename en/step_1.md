@@ -19,3 +19,5 @@ This project covers elements from the following strands of the [Raspberry Pi Dig
 
 + [Apply programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/developer/){:target="_blank"}
 + [Combine inputs and/or outputs to create projects or solve a problem](https://www.raspberrypi.org/curriculum/physical-computing/ddeveloper){:target="_blank"}
+
+[Next->](en/step_2.md)

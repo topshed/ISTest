@@ -44,7 +44,7 @@ Note that you can set the time units in which x-axis values are presented via th
 
 The Waves option is an interactive, multi-row waveform viewer. You can examine your data in more detail by zooming in/out, collecting targeted statistics, and moving signals around.
 
-The type of data loaded determines how it is displayed.  All of your Oracle Weather Station data is numerical except for the cardinal wind direction values which are strings. 
+The type of data loaded determines how it is displayed.  All of your Oracle Weather Station data is numerical except for the cardinal wind direction values which are strings.
 
 The default layout for the Waves view is for all data streams to be the same height.
 
@@ -64,3 +64,5 @@ For data that can be represented as a string, such as the Wind Direction, the **
 In the example below you can see that most common wind direction is from the South or South West (which is what you would expect - or at least hope for - during the summer in the UK).
 
 ![](images/image15.png)
+
+[Next->](en/step_7.md)
