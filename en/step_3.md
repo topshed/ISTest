@@ -29,3 +29,5 @@ If you can't find these details, please email weather@raspberrypi.org with your 
 ![](images/image9.png)
 
 - Click on the **Create** button right at the bottom of this pane.
+
+[Next->](step_4.md)

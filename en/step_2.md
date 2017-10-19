@@ -20,4 +20,4 @@ The steps in this guide assume that you will be regularly uploading data to Init
 
      ```
 
-[Next->](en/step_3.md)
+[Next->](step_3.md)

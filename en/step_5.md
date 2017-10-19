@@ -75,4 +75,4 @@ If you've followed the [standard installation instructions](https://www.raspberr
 
 Once you have data uploading regularly, you can use your Initial State dashboard to analyse how your local climate is changing over time.
 
-[Next->](en/step_6.md)
+[Next->](step_6.md)

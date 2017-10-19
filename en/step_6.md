@@ -65,4 +65,4 @@ In the example below you can see that most common wind direction is from the Sou
 
 ![](images/image15.png)
 
-[Next->](en/step_7.md)
+[Next->](step_7.md)
